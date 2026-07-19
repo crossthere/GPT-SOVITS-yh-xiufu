@@ -1,6 +1,6 @@
 # GPT-SOVITS-yh-xiufu
 
-基于 [crossthere/GPT-SoVITS-yh](https://github.com/crossthere/GPT-SoVITS-yh) API 的修复，然后使用这个可彻底解决吞字问题！
+基于 [crossthere/GPT-SoVITS-yh](https://github.com/crossthere/GPT-SoVITS-yh) API 的修复，然后使用这个可彻底解决GPT-SoVITS吞字问题！
 
 彻底解决TTS 吞字问题。并新增字幕。时长控制。原理是通过TTs生成的字幕然后判断字幕时长 小于0.几 就确定吞字了。然后重新生成20次内必定生成成功，然后补上。
 
