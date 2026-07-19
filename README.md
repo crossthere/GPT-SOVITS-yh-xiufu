@@ -8,7 +8,7 @@
 3. 安装 Python 依赖：
 
    ```bash
-   pip install -r 依赖.txt
+   pip install -r requirements.txt
    ```
 
 4. 启动界面：
